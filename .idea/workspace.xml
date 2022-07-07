@@ -1,69 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ce867c5-b0eb-4e20-8260-ba2724adff16" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6ce867c5-b0eb-4e20-8260-ba2724adff16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/EgoBody_github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EgoBody_github.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1091896184">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="md" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Markdown" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="md" value="112" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Markdown" value="112" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -71,33 +21,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EgoBody_github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EgoBody_github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EgoBody_github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EgoBody_github" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="2AygUYGwM4AgLzok7ac0BCIUrv9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -109,17 +36,38 @@
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportGeventDebugging" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="release_renderer_fpv_gaze" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="EgoBody_github" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/release_renderer_fpv_gaze.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Python.release_renderer_fpv_gaze" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -134,50 +82,63 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="418" y="220" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1656509691951">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state x="418" y="220" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.26.1920.1054/0.26.1920.1054@0.26.1920.1054" timestamp="1656509691951" />
+    <state x="2338" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1655987436688" />
+    <state width="1897" height="306" key="GridCell.Tab.0.bottom" timestamp="1656515005018">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1897" height="306" key="GridCell.Tab.0.bottom/0.26.1920.1054/0.26.1920.1054@0.26.1920.1054" timestamp="1656515005018" />
+    <state width="1897" height="455" key="GridCell.Tab.0.bottom/0.26.1920.1054/1920.0.1920.1080@0.26.1920.1054" timestamp="1656106348441" />
+    <state width="1897" height="455" key="GridCell.Tab.0.bottom/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1656084966737" />
+    <state width="1897" height="306" key="GridCell.Tab.0.center" timestamp="1656515005017">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1897" height="306" key="GridCell.Tab.0.center/0.26.1920.1054/0.26.1920.1054@0.26.1920.1054" timestamp="1656515005017" />
+    <state width="1897" height="455" key="GridCell.Tab.0.center/0.26.1920.1054/1920.0.1920.1080@0.26.1920.1054" timestamp="1656106348441" />
+    <state width="1897" height="455" key="GridCell.Tab.0.center/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1656084966737" />
+    <state width="1897" height="306" key="GridCell.Tab.0.left" timestamp="1656515005017">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1897" height="306" key="GridCell.Tab.0.left/0.26.1920.1054/0.26.1920.1054@0.26.1920.1054" timestamp="1656515005017" />
+    <state width="1897" height="455" key="GridCell.Tab.0.left/0.26.1920.1054/1920.0.1920.1080@0.26.1920.1054" timestamp="1656106348441" />
+    <state width="1897" height="455" key="GridCell.Tab.0.left/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1656084966737" />
+    <state width="1897" height="306" key="GridCell.Tab.0.right" timestamp="1656515005017">
+      <screen x="0" y="26" width="1920" height="1054" />
+    </state>
+    <state width="1897" height="306" key="GridCell.Tab.0.right/0.26.1920.1054/0.26.1920.1054@0.26.1920.1054" timestamp="1656515005017" />
+    <state width="1897" height="455" key="GridCell.Tab.0.right/0.26.1920.1054/1920.0.1920.1080@0.26.1920.1054" timestamp="1656106348441" />
+    <state width="1897" height="455" key="GridCell.Tab.0.right/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1656084966737" />
+    <state x="2376" y="176" key="SettingsEditor" timestamp="1655987450732">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2376" y="176" key="SettingsEditor/0.26.1920.1054/1920.0.1920.1080@1920.0.1920.1080" timestamp="1655987450732" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/release_renderer_fpv_gaze.py</url>
+          <line>358</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/release_renderer_fpv_gaze.py</url>
+          <line>351</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/release_renderer_fpv_gaze.py</url>
+          <line>344</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
