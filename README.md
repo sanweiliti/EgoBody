@@ -4,7 +4,7 @@ EgoBody dataset is a novel large-scale dataset for egocentric 3D human pose, sha
 [[Project page]](https://sanweiliti.github.io/egobody/egobody.html) 
 [[Paper]](https://arxiv.org/pdf/xxxx.pdf)
 
-<img src="images/teaser_v1.jpg" width = 900 align=middle>
+<img src="images/teaser_v2.jpg" width = 900 align=middle>
 
 
 ### News
