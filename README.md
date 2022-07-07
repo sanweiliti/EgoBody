@@ -130,7 +130,7 @@ coming soon...
 ```
 @inproceedings{Zhang:ECCV:2022,
    title = {EgoBody: Human Body Shape and Motion of Interacting People from Head-Mounted Devices},
-   author = {Zhang, Siwei and Qianli, Ma and Zhang, Yan and Zhiyin, Qian and Kwon, Taein and Pollefeys, Marc and Bogo, Federica and Tang, Siyu},
+   author = {Zhang, Siwei and Ma, Qianli and Zhang, Yan and Qian, Zhiyin and Kwon, Taein and Pollefeys, Marc and Bogo, Federica and Tang, Siyu},
    booktitle = {European conference on computer vision (ECCV)},
    month = oct,
    year = {2022}
