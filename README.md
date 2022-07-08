@@ -2,13 +2,13 @@
 EgoBody dataset is a novel large-scale dataset for egocentric 3D human pose, shape and motions under interactions in complex 3D scenes.
 
 [[Project page]](https://sanweiliti.github.io/egobody/egobody.html) 
-[[Paper]](https://arxiv.org/pdf/xxxx.pdf)
+[[Paper]](https://arxiv.org/pdf/2112.07642.pdf)
 
 <img src="images/teaser_v2.jpg" width = 900 align=middle>
 
 
 ### News
-**[July 08, 2022]** The egocentric RGB subset of EgoBody is released! Other modalities (third-person view RGBD, 3D scene, eye gaze, etc.) will come soon.
+**[July 08, 2022]** The EgoSet (egocentric RGB subset of EgoBody) is released! Other modalities (third-person view RGBD, 3D scene, eye gaze, etc.) will come soon.
 
 **[June 01, 2022]** The EgoBody dataset will be part of the ECCV2022 workshop: Human Body, Hands, and Activities from Egocentric and Multi-view Cameras. 
 Please check out our [workshop website](https://sites.google.com/view/egocentric-hand-body-activity) for more information.
