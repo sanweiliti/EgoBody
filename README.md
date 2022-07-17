@@ -3,11 +3,16 @@ EgoBody dataset is a novel large-scale dataset for egocentric 3D human pose, sha
 
 [[Project page]](https://sanweiliti.github.io/egobody/egobody.html) 
 [[Paper]](https://arxiv.org/pdf/2112.07642.pdf)
+[[Dataset]](https://egobody.inf.ethz.ch)
+[[EgoBody challenge]](https://codalab.lisn.upsaclay.fr/competitions/6351)
+
 
 <img src="images/teaser_v2.jpg" width = 900 align=middle>
 
 
 ### News
+**[July 17, 2022]** The [EgoBody challenge](https://codalab.lisn.upsaclay.fr/competitions/6351) is released! The first phase of the challenge will end at October 1st. The participants are welcome to submit a 2-4 page abstract to our ECCV workshop.
+
 **[July 08, 2022]** The EgoSet (egocentric RGB subset of EgoBody) is released! Other modalities (third-person view RGBD, 3D scene, eye gaze, etc.) will come soon.
 
 **[June 01, 2022]** The EgoBody dataset will be part of the ECCV2022 workshop: Human Body, Hands, and Activities from Egocentric and Multi-view Cameras. 
@@ -138,8 +143,9 @@ coming soon...
 ```
 
 ## Acknowledgments
-This work was supported by the Microsoft Mixed Reality & AI Zurich Lab PhD scholarship. Qianli Ma is partially funded by the Max Planck ETH Center for Learning Systems. We sincerely thank Francis Engelmann, Korrawe Karunratanakul, Theodora Kontogianni, Qi Ma, Marko Mihajlovic, Sergey Prokudin, Matias Turkulainen, Rui Wang , Shaofei Wang and Samokhvalov Vyacheslav for helping with the data capture and processing, Xucong Zhang for the discussion of data collection and Jonas Hein for the discussion of the hardware setup.
-
+This work was supported by the Microsoft Mixed Reality & AI Zurich Lab PhD scholarship. 
+Qianli Ma is partially funded by the Max Planck ETH Center for Learning Systems. We sincerely thank Francis Engelmann, Korrawe Karunratanakul, Theodora Kontogianni, Qi Ma, Marko Mihajlovic, Sergey Prokudin, Matias Turkulainen, Rui Wang , Shaofei Wang and Samokhvalov Vyacheslav for helping with the data capture and processing, Xucong Zhang for the discussion of data collection and Jonas Hein for the discussion of the hardware setup.
+Siyu Tang acknowledges the SNF grant 200021 204840.
 
 ## Relevant projects
 The data construction pipeline benefits from:
