@@ -121,13 +121,13 @@ coming soon...
 |Method                                                            |     MPJPE    |     PA-MPJPE    |      V2V       |     PA-V2V    |   
 |------------------------------------------------------------------|:------------:|:---------------:|:--------------:|:-------------:|
 | [CMR](https://github.com/nkolot/GraphCMR/)                       |    200.7     |      109.6      |      218.7     |     136.8     |
-| [SPIN](https://github.com/nkolot/SPIN)                           |    182.8     |      116.6      |      187.3     |     123.7     |
+| [SPIN](https://github.com/nkolot/SPIN)                           |    182.8     |      116.6      |      187.3     |     123.8     |
 | [LGD](https://github.com/InpatientJam/Learned-Gradient-Descent)  |    158.0     |      99.9       |      168.3     |     106.0     |
-| [METRO](https://github.com/microsoft/MeshTransformer)            |    153.1     |      98.4       |      164.6     |     106.4     |
-| [PARE](https://github.com/mkocabas/PARE)                         |    123.0     |      83.8       |      131.5     |     89.7      |
-| [EFT](https://github.com/facebookresearch/eft)                   |    123.9     |      78.4       |      134.9     |     86.0      |
+| [METRO](https://github.com/microsoft/MeshTransformer)            |    153.1     |      98.4       |      164.6     |     106.5     |
+| [PARE](https://github.com/mkocabas/PARE)                         |    123.0     |      83.8       |      131.4     |     89.7      |
+| [EFT](https://github.com/facebookresearch/eft)                   |    123.9     |      78.4       |      135.0     |     86.0      |
 | **SPIN-ft**                                                      |    106.5     |      67.1       |      120.9     |     78.3      |
-| **METRO-ft**                                                     |    **98.5**  |      70.0       |      **110.5** |     76.8      |
+| **METRO-ft**                                                     |    **98.5**  |      66.9       |      **110.5** |     76.8      |
 | **EFT-ft**                                                       |    102.1     |      **64.8**   |      116.1     |     **74.8**  |
 * Here '-ft' denotes results of fine-tuning SPIN, METRO and EFT on our training set. 
 
