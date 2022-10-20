@@ -40,10 +40,24 @@ def main(args):
     calib_trans_dir = os.path.join(args.release_data_root, 'calibrations', args.recording_name)  # extrinsics
     fpv_recording_dir = glob.glob(os.path.join(args.release_data_root, 'egocentric_color', args.recording_name, '202*'))[0]
 
+    data_split_info = pd.read_csv(os.path.join(args.release_data_root, 'data_splits.csv'))
+    train_split_list = list(data_split_info['train'])
+    val_split_list = list(data_split_info['val'])
+    test_split_list = list(data_split_info['test'])
+    if args.recording_name in train_split_list:
+        split = 'train'
+    elif args.recording_name in val_split_list:
+        split = 'val'
+    elif args.recording_name in test_split_list:
+        split = 'test'
+    else:
+        print('Error: {} not in all splits.'.format(args.recording_name))
+        exit()
+
     if args.model_type == 'smplx':
-        fitting_root_interactee = osp.join(args.release_data_root, 'smplx_interactee', args.recording_name)
+        fitting_root_interactee = osp.join(args.release_data_root, 'smplx_interactee_{}'.format(split), args.recording_name)
     elif args.model_type == 'smpl':
-        fitting_root_interactee = osp.join(args.release_data_root, 'smpl_interactee', args.recording_name)
+        fitting_root_interactee = osp.join(args.release_data_root, 'smpl_interactee_{}'.format(split), args.recording_name)
     else:
         print('body model type error!')
         exit()
@@ -147,7 +161,7 @@ def main(args):
         holo_gaze_file_path = glob.glob(os.path.join(gaze_dir, '*_head_hand_eye.csv'))[0]
         holo_gaze_point3d_dict = {}
         holo_gaze_point2d_dict = {}
-        (timestamps, _, gaze_data, gaze_available) = load_head_hand_eye_data(holo_gaze_file_path)
+        (timestamps, _, _, _, _, _, gaze_data, gaze_available) = load_head_hand_eye_data(holo_gaze_file_path)
         for pv_timestamp in holo_timestamp_dict.keys():
             gaze_ts = match_timestamp(int(pv_timestamp), timestamps)
 
@@ -349,7 +363,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--plot_2d_joints', default='False', type=lambda x: x.lower() in ['true', '1'],
                         help='draw gt/openpose 2d joints on rendered images or not, always disabled when rendering in 3d scenes')
-    parser.add_argument('--plot_gaze', default='False', type=lambda x: x.lower() in ['true', '1'], help='draw 2d gaze or not')
+    parser.add_argument('--plot_gaze', default='True', type=lambda x: x.lower() in ['true', '1'], help='draw 2d gaze or not')
 
     parser.add_argument('--scale', type=int, default=2, help='the scale to downsample output rendering images')
     parser.add_argument('--start', type=int, default=0, help='id of the starting frame')
