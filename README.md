@@ -11,7 +11,7 @@ EgoBody dataset is a novel large-scale dataset for egocentric 3D human pose, sha
 
 
 ### News
-**[October 20, 2022]** Text descriptions for motions are provided by [Motion-X Dataset](https://github.com/IDEA-Research/Motion-X).
+**[December 04, 2023]** Text descriptions for motions are provided by [Motion-X Dataset](https://github.com/IDEA-Research/Motion-X).
 
 **[October 20, 2022]** All modalities of EgoBody are released (including third-person view RGBD, 3D scene, eye gaze/hand/head tracking, 3D human shape and motion annotations for the camera wearer, etc.)! 
 
