@@ -170,7 +170,8 @@ EgoBody
     * `body_idx_x` is the body index of the interactee/camera wearer in the current sequence, and `frame_xxxxx` is the ID for each frame.
 * `smpl_interactee_train/val` and `smpl_camera_wearer_train/val`: SMPL body parameters for each frame of the interactee/camera wearer
 
-
+### Motion text descriptions
+Text descriptions for motions are provided by [Motion-X Dataset](https://github.com/IDEA-Research/Motion-X).
 
 
 
